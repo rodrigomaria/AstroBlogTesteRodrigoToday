@@ -1,0 +1,60 @@
+{
+  "name": "AstroBlogTesteRodrigoToday123",
+  "bucket": "AstroBlogTesteRodrigoToday123",
+  "preset": "astro",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240508220200",
+  "not-first-run": true,
+  "function": {
+    "id": 22933,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 22482,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1715203282,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1715202051,
+    "name": "AstroBlogTesteRodrigoToday123",
+    "domain_name": "kfyhgfeou7.map.azionedge.net",
+    "url": "https://kfyhgfeou7.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 132094,
+      "origin-key": "c7653364-2e4a-4f6c-b7d4-002db667a413",
+      "name": "AstroBlogTesteRodrigoToday123_single"
+    },
+    {
+      "origin-id": 132095,
+      "origin-key": "7a42e709-111d-46cc-8fc8-e268b3d17a51",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 249528,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 249529,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 249530,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
